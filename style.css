@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 233, 154);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    height: 70px;
+    background-color:rgb(255, 213, 134);
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul {
+   list-style: none ;
+}
+
+.gameContainer {
+   color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+.container {
+            display: grid;
+            grid-template-columns: 10vw 10vw 10vw;
+            grid-template-rows: 10vw 10vw 10vw ;
+            font-family:sans-serif;         
+}
+.box{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color : rgb(184, 231, 184);
+}
+.boxText{
+    font-size:9vw;
+    color: rgb(0, 0, 0);
+}
+
+.bt-0{
+    border-top:0px;
+}
+
+.bl-0{
+    border-left: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.gameInfo{
+    justify-content: center;
+    text-align: center;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#reset {
+    border-radius: 10%;
+    padding: 1vh;
+    background-color:rgb(214, 205, 232);
+    font-family: "Emilys ", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vh ;
+    margin: 1vh;
+}
+.info{
+    border-radius: 10%;
+    padding: 1vh;
+    font-family: "Emilys ", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vh ;
+    margin: 1vh;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:800px) {
+    .gameContainer{
+          display: inline-flex ;
+    }
+  
+
+}
